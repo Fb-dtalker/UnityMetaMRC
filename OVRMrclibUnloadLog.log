@@ -1,0 +1,169 @@
+--------- beginning of main
+08-31 09:57:15.850 15850 15879 D OVRPlugin: JNI_OnLoad
+08-31 09:57:15.857 15850 15879 D OVRPlugin: CompositorOpenXR::PreInitialize(nullptr)
+08-31 09:57:15.857 15850 15879 I OVRPlugin: CompositorOpenXR::PreInitialize: use default UnityPlayer activity
+08-31 09:57:15.857 15850 15879 I OVRPlugin: CompositorOpenXR::PreInitialize(activity = 0x199a, apiType = 0, preinitializeFlags=0x0)
+08-31 09:57:15.857 15850 15879 I OVRPlugin: Support Non-Oculus runtime: NO
+08-31 09:57:15.857 15850 15879 I OVRPlugin:  -- Set xrGetInstanceProcAddr to OpenXR Loader
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Available Extensions: (51)
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_android_create_instance SpecVersion=3
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_android_surface_swapchain SpecVersion=4
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_android_thread_settings SpecVersion=5
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_android_surface_swapchain_create SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_opengl_es_enable SpecVersion=8
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_vulkan_enable SpecVersion=8
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_vulkan_enable2 SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_composition_layer_cube SpecVersion=8
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_composition_layer_equirect2 SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_composition_layer_depth SpecVersion=6
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_color_space SpecVersion=3
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_EXT_performance_settings SpecVersion=4
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_EXT_hand_tracking SpecVersion=4
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_display_refresh_rate SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_swapchain_update_state SpecVersion=3
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_swapchain_update_state_opengl_es SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_swapchain_update_state_vulkan SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_swapchain_update_state_android_surface SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_OCULUS_common_reference_spaces SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_composition_layer_image_layout SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_composition_layer_alpha_blend SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_common_events SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_hand_tracking_aim SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_foveation SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_foveation_configuration SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_foveation_vulkan SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_composition_layer_secure_content SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_KHR_convert_timespec_time SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_passthrough_preferences SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_touch_controller_proximity SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_touch_controller_pro SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_touch_controller_plus SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_haptic_pcm SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_spatial_entity_user SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_space_warp SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_vulkan_swapchain_create_info SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_composition_layer_settings SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_feature_fidelity SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_FB_composition_layer_depth_test SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_performance_metrics SpecVersion=2
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_virtual_keyboard SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_MSFT_hand_interaction SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_headset_id SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_recommended_layer_resolution SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_META_automatic_layer_filter SpecVersion=1
+08-31 09:57:16.017 15850 15879 I OVRPlugin:  Name=XR_EXT_debug_utils SpecVersion=4
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_passthrough
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_triangle_mesh
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_METAX1_passthrough_color_lut
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_render_model
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_keyboard_tracking
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_scene
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity_container
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity_query
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity_storage
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_spatial_entity_sharing
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_scene_capture
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_face_tracking
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_eye_tracking_social
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_FB_body_tracking
+08-31 09:57:16.017 15850 15879 I OVRPlugin: Unavailable OpenXR extension: XR_META_local_dimming
+08-31 09:57:16.018 15850 15879 I OVRPlugin: Available Layers: (0)
+08-31 09:57:16.026 15850 15879 I OVRPlugin: Preinitialize: xrCreateInstance() succeeded
+08-31 09:57:16.027 15850 15879 I OVRPlugin: Warning: unable to bind OpenXR entry xrGetOpenGLESGraphicsRequirementsKHR
+08-31 09:57:16.027 15850 15879 I OVRPlugin: OpenXR runtime name: Oculus, version 55.149.0
+08-31 09:57:16.027 15850 15879 I OVRPlugin: Preinitialize: xrGetSystem() succeeded. xrSystemId 15992298772902969345
+08-31 09:57:16.027 15850 15879 I OVRPlugin: VkInstanceExtensions:
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_surface
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_android_surface
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_external_memory_capabilities
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_get_physical_device_properties2
+08-31 09:57:16.027 15850 15879 I OVRPlugin: VkDeviceExtensions:
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_swapchain
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_external_memory
+08-31 09:57:16.027 15850 15879 I OVRPlugin:   VK_KHR_get_memory_requirements2
+08-31 09:57:16.028 15850 15879 I OVRPlugin: Preinitialize: xrDestroyInstance() succeeded
+08-31 09:57:16.028 15850 15879 D OVRPlugin: CompositorOpenXR::PreInitialize() -- succeeded
+08-31 09:57:16.028 15850 15879 I OVRPlugin: ProfilerSystem: verbose mode 0
+08-31 09:57:16.028 15850 15879 I OVRPlugin: OVRPlugin 1.86.1 ... preinitialized
+08-31 09:57:16.154 15850 15879 I OVRPlugin: OpenXR SDK version 1.0.27
+08-31 09:57:16.154 15850 15879 I OVRPlugin: AppNativeLibraryDir: /data/app/~~Ilxo98GhRdsMhYzcPvYa8w==/com.FB.UnityMetaMRC-hjTiR0Cm6u5aiqOYuffJzQ==/lib/arm64
+08-31 09:57:16.154 15850 15879 I OVRMrcLib: Try loading /data/app/~~Ilxo98GhRdsMhYzcPvYa8w==/com.FB.UnityMetaMRC-hjTiR0Cm6u5aiqOYuffJzQ==/lib/arm64/libOVRMrcLib.oculus.so
+08-31 09:57:16.154 15850 15879 I OVRMrcLib: Try loading /data/app/~~Ilxo98GhRdsMhYzcPvYa8w==/com.FB.UnityMetaMRC-hjTiR0Cm6u5aiqOYuffJzQ==/lib/arm64/libOVRMrcLib.so
+08-31 09:57:16.155 15850 15879 I OVRMrcLib: Try loading libOVRMrcLib.oculus.so
+08-31 09:57:16.155 15850 15879 I OVRMrcLib: Try loading libOVRMrcLib.so
+08-31 09:57:16.155 15850 15879 E OVRMrcLib: Unable to load OVRMrcLib
+08-31 09:57:16.155 15850 15879 I OVRPlugin: Unable to load OVRMrcLib
+08-31 09:57:16.155 15850 15879 D OVRPlugin: CompositorOpenXR_Vulkan(): vkInstance 0xb400007858ea0040 vkPhysicalDevice 0xb400007858ea0030 vkDevice 0xb400007858ea0050 vkQueue 0xb400007858ea0080 vkGetInstanceProcAddr 0x79814e54f4 vkQueueFamilyIndex 0
+08-31 09:57:16.155 15850 15879 D OVRPlugin: CompositorOpenXR_Vulkan: Found VkQueue at index 0
+08-31 09:57:16.155 15850 15879 D OVRPlugin: CompositorOpenXR::Initialize()
+08-31 09:57:16.170 15850 15879 I OVRPlugin: Initialize: xrCreateInstance() succeeded
+08-31 09:57:16.170 15850 15879 I OVRPlugin: Warning: unable to bind OpenXR entry xrGetOpenGLESGraphicsRequirementsKHR
+08-31 09:57:16.170 15850 15879 I OVRPlugin: OpenXR runtime name: Oculus, version 55.149.0
+08-31 09:57:16.170 15850 15879 I OVRPlugin: xrGetSystem() succeeded. xrSystemId 15992298772902969345
+08-31 09:57:16.170 15850 15879 I OVRPlugin: OpenXR system properties:
+08-31 09:57:16.170 15850 15879 I OVRPlugin:   venderId 10291, systemName Oculus Quest2, maxSwapchainImage(8192, 8192), maxLayerCount 32, orientationTracking 1, positionTracking 1
+08-31 09:57:16.170 15850 15879 I OVRPlugin: OpenXR hand tracking system properties:
+08-31 09:57:16.170 15850 15879 I OVRPlugin:   hand tracking supported 1
+08-31 09:57:16.170 15850 15879 I OVRPlugin: OpenXR headset id system properties:
+08-31 09:57:16.170 15850 15879 I OVRPlugin:   id 3064F23915ED4722A6595EA1ECD899C2
+08-31 09:57:16.170 15850 15879 D OVRPlugin: Expected XrViewConfigurationType found (XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO)
+08-31 09:57:16.170 15850 15879 D OVRPlugin: XrViewConfigurationProperties: type XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO, fovMutable 1
+08-31 09:57:16.170 15850 15879 I OVRPlugin: xrEnumerateViewConfigurationViews() found 2 views
+08-31 09:57:16.170 15850 15879 I OVRPlugin:   View: Recommended Width=1440 Height=1584 SampleCount=1 Maximum Width=8192 Height=8192 SampleCount=1
+08-31 09:57:16.170 15850 15879 I OVRPlugin:   View: Recommended Width=1440 Height=1584 SampleCount=1 Maximum Width=8192 Height=8192 SampleCount=1
+08-31 09:57:16.172 15850 15879 I OVRPlugin: xrGetVulkanGraphicsRequirementsKHR: minApiVersion 1.0.0 maxApiVersion 1.2.0
+08-31 09:57:16.422 15850 15879 I OVRPlugin: [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_UNKNOWN->XR_SESSION_STATE_IDLE session=144115188075855904 time=461388857583
+08-31 09:57:16.422 15850 15879 D OVRPlugin: [XR_SESSION] ... running 0 visible 0 focused 0
+08-31 09:57:16.422 15850 15879 I OVRPlugin: [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_IDLE->XR_SESSION_STATE_READY session=144115188075855904 time=461389205656
+08-31 09:57:16.437 15850 15879 D OVRPlugin: [XR_SESSION] ... running 1 visible 0 focused 0
+08-31 09:57:16.438 15850 15879 D OVRPlugin: HandleOpenXREvents(): XrEventDataMountStateChangedFB 1
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/app/gpu_frametime
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/compositor/gpu_frametime
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/compositor/dropped_frame_count
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/compositor/spacewarp_mode
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/gpu_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu_utilization_average
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu_utilization_worst
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu0_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu1_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu2_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu3_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu4_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu5_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu6_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Supported Performance Metrics: /perfmetrics_meta/device/cpu7_utilization
+08-31 09:57:16.438 15850 15879 I OVRPlugin: CompositorOpenXR::Initialize() - succeeded
+08-31 09:57:16.438 15850 15879 I OVRPlugin: Compositor initialized from thread id 76543970
+08-31 09:57:16.438 15850 15879 I OVRPlugin: OVRPlugin 1.86.1 ... initialized
+08-31 09:57:16.459 15850 15879 E OVRPlugin: [GetBoundaryGeometry] ovrpBoundary_Outer is not supported (arvr/projects/integrations/OVRPlugin/Src/Util/CompositorOpenXR.cpp:10676)
+08-31 09:57:16.482 15850 15955 D OVRPlugin: CompositorOpenXR_Vulkan::Layer::Initialize(): CreateSwapchain for eye 0: 0x400000000000030, 3 stages
+08-31 09:57:16.482 15850 15955 D OVRPlugin:  ... m_textureSwapChainImages[0][0] = 0xb400007858a5a800
+08-31 09:57:16.482 15850 15955 D OVRPlugin:     ... foveationImage = 0xb4000077963d0400, width = 45, height = 50
+08-31 09:57:16.482 15850 15955 D OVRPlugin:  ... m_textureSwapChainImages[0][1] = 0xb400007858a5ac00
+08-31 09:57:16.482 15850 15955 D OVRPlugin:     ... foveationImage = 0xb4000077963d0800, width = 45, height = 50
+08-31 09:57:16.482 15850 15955 D OVRPlugin:  ... m_textureSwapChainImages[0][2] = 0xb4000077963d0000
+08-31 09:57:16.482 15850 15955 D OVRPlugin:     ... foveationImage = 0xb4000077963d0c00, width = 45, height = 50
+08-31 09:57:16.485 15850 15955 I OVRPlugin: [CompositorOpenXR::SetClientColorDesc] Change colorspace from 0 to 4
+08-31 09:57:16.485 15850 15955 I OVRPlugin: ovrp_GetSystemCpuLevel2() deprecated, please use ovrp_GetSuggestedCpuPerformanceLevel()
+08-31 09:57:16.485 15850 15955 I OVRPlugin: ovrp_GetSystemGpuLevel2() deprecated, please use ovrp_GetSuggestedGpuPerformanceLevel()
+08-31 09:57:16.632 15850 15955 I OVRPlugin: [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=144115188075855904 time=461598551697
+08-31 09:57:16.632 15850 15955 D OVRPlugin: [XR_SESSION] ... running 1 visible 0 focused 0
+08-31 09:57:16.633 15850 15955 I OVRPlugin: [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=144115188075855904 time=461598924978
+08-31 09:57:16.633 15850 15955 D OVRPlugin: [XR_SESSION] ... running 1 visible 1 focused 0
+08-31 09:57:16.633 15850 15955 I OVRPlugin: [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=144115188075855904 time=461599607270
+08-31 09:57:16.633 15850 15955 D OVRPlugin: [XR_SESSION] ... running 1 visible 1 focused 1
+08-31 09:57:16.640 15850 15955 D OVRPlugin: HandleOpenXREvents(): XrEventDataInteractionProfileChanged
+08-31 09:57:20.996 15850 15879 I OVRPlugin: UnityPluginLoad called
+08-31 09:57:21.005 15850 15879 E OVRPlugin: ovrp_Media_Initialize failed. OVRMrcLib not loaded (arvr/projects/integrations/OVRPlugin/Src/OVR_Plugin_Media.cpp:128)
+08-31 09:57:21.011 15850 15879 I OVRPlugin: [CompositorOpenXR::SetClientColorDesc] Change colorspace from 4 to 7
+08-31 09:57:21.031 15850 15879 E OVRPlugin: ovrp_Media_GetInitialized failed. OVRMrcLib not loaded (arvr/projects/integrations/OVRPlugin/Src/OVR_Plugin_Media.cpp:234)
+08-31 09:58:12.993 15850 15955 D OVRPlugin: HandleOpenXREvents(): XrEventDataMountStateChangedFB 0
